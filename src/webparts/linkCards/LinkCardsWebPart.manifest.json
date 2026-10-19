@@ -24,7 +24,8 @@
       },
       "officeFabricIconFontName": "Tiles",
       "properties": {
-        "cards": []
+        "cards": [],
+        "maxColumns": 8
       }
     }
   ]
