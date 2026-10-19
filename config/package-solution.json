@@ -1,14 +1,1 @@
-{
-  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
-  "solution": {
-    "name": "link-cards-webpart-client-side-solution",
-    "id": "ae20369c-020a-4804-b0c6-8165e55b7455",
-    "version": "1.2.0.0",
-    "includeClientSideAssets": true,
-    "skipFeatureDeployment": true,
-    "isDomainIsolated": false
-  },
-  "paths": {
-    "zippedPackage": "solution/link-cards-webpart.sppkg"
-  }
-}
+{"$schema":"https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json","solution":{"name":"link-cards-webpart-client-side-solution","id":"ae20369c-020a-4804-b0c6-8165e55b7455","version":"1.3.0.0","includeClientSideAssets":true,"skipFeatureDeployment":true,"isDomainIsolated":false},"paths":{"zippedPackage":"solution/link-cards-webpart.sppkg"}}

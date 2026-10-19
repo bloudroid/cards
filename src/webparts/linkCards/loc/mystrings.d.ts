@@ -1,2 +1,1 @@
-declare interface ILinkCardsWebPartStrings { PropertyPaneDescription:string; BasicGroupName:string; MaxColumnsLabel:string; EditCardsLabel:string; }
-declare module 'LinkCardsWebPartStrings' { const strings:ILinkCardsWebPartStrings; export = strings; }
+declare interface ILinkCardsWebPartStrings { PropertyPaneDescription:string; BasicGroupName:string; MaxColumnsLabel:string; EditCardsLabel:string; } declare module 'LinkCardsWebPartStrings' { const strings:ILinkCardsWebPartStrings; export = strings; }
