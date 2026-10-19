@@ -1,0 +1,31 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx/client-side-web-part-manifest.schema.json",
+  "id": "ca899b6b-69c0-4c40-8986-c7b5fef99156",
+  "alias": "LinkCardsWebPart",
+  "componentType": "WebPart",
+  "version": "*",
+  "manifestVersion": 2,
+  "requiresCustomScript": false,
+  "supportsFullBleed": true,
+  "supportsThemeVariants": true,
+  "preconfiguredEntries": [
+    {
+      "groupId": "cf066440-0614-43d6-98ae-0b31cf14c7c3",
+      "group": {
+        "default": "Text, media, and content"
+      },
+      "title": {
+        "default": "Karty odkazů",
+        "cs-cz": "Karty odkazů"
+      },
+      "description": {
+        "default": "Responsive cards with images, text and links.",
+        "cs-cz": "Responzivní karty s obrázky, textem a odkazy."
+      },
+      "officeFabricIconFontName": "Tiles",
+      "properties": {
+        "cards": []
+      }
+    }
+  ]
+}
