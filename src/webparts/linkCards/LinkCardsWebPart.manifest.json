@@ -19,8 +19,8 @@
         "cs-cz": "Karty odkazů"
       },
       "description": {
-        "default": "Responsive cards with images, text and links.",
-        "cs-cz": "Responzivní karty s obrázky, textem a odkazy."
+        "default": "Responsive link cards",
+        "cs-cz": "Responzivní karty odkazů"
       },
       "officeFabricIconFontName": "Tiles",
       "properties": {
