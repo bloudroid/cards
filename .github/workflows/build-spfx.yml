@@ -1,0 +1,30 @@
+name: Build SPFx
+on:
+  workflow_dispatch:
+jobs:
+  build:
+    runs-on: ubuntu-24.04
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v7
+      - name: Setup Node.js 22 for SPFx
+        uses: actions/setup-node@v7
+        with:
+          node-version: '22.14.0'
+          package-manager-cache: false
+      - name: Show versions
+        run: |
+          node --version
+          npm --version
+      - name: Install dependencies
+        run: npm install
+      - name: Build SPFx solution
+        run: npm run build
+      - name: Package SPFx solution
+        run: npm run package-solution
+      - name: Upload SPPKG artifact
+        uses: actions/upload-artifact@v7
+        with:
+          name: link-cards-webpart-sppkg
+          path: sharepoint/solution/*.sppkg
+          if-no-files-found: error
